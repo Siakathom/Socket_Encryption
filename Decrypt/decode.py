@@ -1,7 +1,7 @@
 import socket
 from tkinter import *
 
-
+3
 serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 hostIp = socket.gethostbyname('0.0.0.0')
@@ -81,7 +81,7 @@ txtMsg = Entry(f1, font = ('arial', 16, 'bold'),
 txtMsg.grid(row = 2, column = 3)
 
 lblMsg = Label(f1, font = ('arial', 18, 'bold'),
-		text = "By using AES", bd = 6, anchor = "w")
+		text = "By using MD5", bd = 6, anchor = "w")
 		
 lblMsg.grid(row = 3, column = 3)
 
@@ -132,7 +132,7 @@ txtService = Entry(f1, font = ('arial', 16, 'bold'),
 txtService.grid(row = 5, column = 5)
 
 lblMsg = Label(f1, font = ('arial', 18, 'bold'),
-		text = "By using MD5", bd = 6, anchor = "w")
+		text = "By using AES", bd = 6, anchor = "w")
 		
 lblMsg.grid(row = 6, column = 3)
 
